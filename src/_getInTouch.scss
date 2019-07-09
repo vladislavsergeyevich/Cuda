@@ -1,0 +1,110 @@
+.getInTouch_wrapper {
+    background-color: $getInTouchColor;
+    .getInTouch {
+        padding-top: 114px;
+        padding-bottom: 125px;
+        text-align: center;
+
+        .headline {
+            margin-bottom: 72px;
+            h1 {
+                color:  $whiteColor;
+            }
+            .line {
+                background-color:  #273a71;
+            }
+            p {
+                width: 60%;
+                color:  $whiteColor;
+            }      
+        }
+        form {
+            display: inline-block;
+            text-align: center;
+            width: 60%;
+            
+            input {
+                width: 48%;
+                border: none;
+                border-radius: 4px;
+                background-color:  #273a71;
+                height: 56px;
+                font-family: 'TitilliumWeb';
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 18px;
+                text-align: left;
+                margin-bottom: 27px;
+                padding: 0 23px;
+            }
+            .input_left {
+                float: left;
+                
+            }
+            .input_right {
+                float: right;   
+            }
+
+            input::-webkit-input-placeholder { 
+                background: linear-gradient( to right, #ffffff 4.8em,  #ff4444 1em);
+                -webkit-background-clip: text; 
+                -webkit-text-fill-color: transparent;    
+            }
+            input:-ms-input-placeholder {
+                background: linear-gradient( to right, #ffffff 4.7em,  #ff4444 2em);
+                -webkit-background-clip: text; 
+                -webkit-text-fill-color: transparent;       
+                }
+            input::-ms-input-placeholder {
+                background: linear-gradient( to right, #ffffff 4.7em,  #ff4444 2em);
+                -webkit-background-clip: text; 
+                -webkit-text-fill-color: transparent;       
+                 }
+            input::placeholder { 
+                background: linear-gradient( to right, #ffffff 4.7em,  #ff4444 2em);
+                -webkit-background-clip: text; 
+                -webkit-text-fill-color: transparent;       
+            } 
+
+            textarea {
+                padding: 20px 23px 20px 23px;
+                border: none;
+                border-radius: 4px;
+                background-color:  #273a71;
+                width: 100%;
+                height: 200px;
+                font-family: 'TitilliumWeb';
+                color:  $whiteColor;
+                font-size: 18px;
+                font-weight: 400;
+                text-align: left;
+                margin-bottom: 54px;
+                resize: none;
+            }
+
+            textarea::-webkit-input-placeholder {
+                background: linear-gradient( to right, #ffffff 6em,  #ff4444 2em);
+                -webkit-background-clip: text; 
+                -webkit-text-fill-color: transparent;          
+                 }
+            textarea:-ms-input-placeholder {
+                background: linear-gradient( to right, #ffffff 6em,  #ff4444 2em);
+                -webkit-background-clip: text; 
+                -webkit-text-fill-color: transparent;           
+                }
+            textarea::-ms-input-placeholder {
+                background: linear-gradient( to right, #ffffff 6em,  #ff4444 2em);
+                -webkit-background-clip: text; 
+                -webkit-text-fill-color: transparent;            
+                 }
+            textarea::placeholder { 
+                background: linear-gradient( to right, #ffffff 6em,  #ff4444 2em);
+                -webkit-background-clip: text; 
+                -webkit-text-fill-color: transparent;       
+             } 
+
+            
+        }
+
+    }
+}

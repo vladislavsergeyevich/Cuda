@@ -1,0 +1,54 @@
+.services_wrapper {
+    background-color: $serviceColor;
+    .services {
+        padding: 118px 0 124px 0;
+        text-align: center;
+        .headline {
+            margin-bottom: 81px;
+            .line {
+                background-color: #14a58c;
+            }
+            p {
+                width: 600px;
+            }
+        }
+        .services_options {
+            display: inline-block;
+            margin: 0 auto;
+            width: 78%;
+            .services_oprions_item {
+              float: left;
+              width: 25%;
+              text-align: center;
+            
+              img {
+                  height: 121px;
+                  margin-bottom: 56px;
+              }
+              h2 {
+                text-align: center;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 30px;
+                font-family: 'TitilliumWebBold', sans-serif;
+                color: $whiteColor;
+                font-stretch: extra-expanded;
+                margin-bottom: 16px;
+               }
+             p {
+                display: inline-block;
+                width: 190px;
+                font-family: 'TitilliumWebLight', sans-serif;
+                color: $whiteColor;
+                font-size: 16px;
+                font-weight: 100;
+                line-height: 23px;
+                
+               }
+
+            }
+        }
+       
+    }
+}
+

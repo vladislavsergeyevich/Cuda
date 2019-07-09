@@ -1,0 +1,66 @@
+.skills_wrapper {
+    background-color: $whiteColor;
+    .skills {
+        padding: 110px 0 119px;
+        text-align: center;
+
+        .headline {
+            margin-bottom: 88px;
+            h1 {  
+                color: $bluerColor; 
+            }
+            .line {
+                background-color: #dfe8ed;
+            }
+            p {
+                width: 40%;
+                color: $bluerColor;
+        
+            }      
+        }
+
+        .skills_progress {
+            .skill_progress_item {
+                display: inline-block;
+                text-align: center;
+                padding-left: 4%;
+                padding-right: 4%;        
+                .progress {
+                    display: inline-block;
+                    padding: 40px 55px;
+                    width: 160px;
+                    height: 160px;
+                    margin-bottom: 26px;
+                    .percent {
+                        text-align: center;
+                        font-family: 'TitilliumWebLight', sans-serif;
+                        color:  #3c4761;
+                        font-size: 50px;
+                        font-weight: 300;
+                        margin-left: -10px;
+                        
+                    }
+                }
+                h3 {
+                    color: $bluerColor;
+                    font-family: 'TitilliumWeb', sans-serif;
+                    font-weight: 700;
+                }
+                .web_design {
+                    background-image: url("/images/Progress.png");
+                }
+                .html_css {
+                    background-image: url("/images/Progress2.png");
+                }
+                .graphic {
+                    background-image: url("/images/Progress3.png");
+                }
+                .ui_ux {
+                    background-image: url("/images/Progress4.png");
+                }                
+            }                      
+        }     
+}
+
+
+}

@@ -1,0 +1,84 @@
+.team_wrapper {
+    background-color: $teamColor;
+    .team {
+        padding: 113px 0 124px;
+        .headline {
+            margin-bottom: 81px;
+            h1 {
+                color:  #3c4661;
+            }
+            .line {
+                background-color: #c8d9e5;
+            }
+            p {
+                color:  #3c4661;
+            }
+        }
+      
+        .team_members {
+            margin: 0 10%;
+            display: inline-block;
+            width: 80%;
+           
+            .team_members_item {
+                width: 24%;
+                display: inline-block;
+                text-align: center;
+                .ava {
+                    display: inline-block;
+                    border-radius: 50%;
+                    background-color: #878787;
+                    height: 198px;
+                    width: 198px;
+                    margin-bottom: 28px;
+                }
+                h2 {
+                    font-family: 'TitilliumWebBold';
+                    color: #3c4761;
+                }
+                h3 {
+                
+                    font-family: 'TitilliumWeb', sans-serif;
+                    color:  #30bae7;
+                    font-size: 16px;
+                    font-weight: 400;
+                    margin-bottom: 20px;
+                }
+                
+                p {
+                    display: inline-block;
+                    font-family: 'TitilliumWebLight', sans-serif;
+                    color:  #3c4761;
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin-bottom: 27px;
+                    font-weight: 300;
+                    width: 200px;
+                }
+                
+                .icons {
+                    text-align: center;
+                    .icons_item {
+                        display: inline-block;
+                        background-color: #bdd1df;
+                        width: 33px;
+                        height: 33px;
+                        border-radius: 50%;
+                        color: $whiteColor;
+                        a {
+                            display: block;
+                            padding: 8px;
+                            width: 100%;
+                            height: 100%;
+                          
+                        }
+
+                    }
+                }
+
+            }
+
+        }
+    }
+}
+

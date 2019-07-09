@@ -1,0 +1,71 @@
+.aboutUs_wrapper {
+    background-color: $aboutUsColor;
+    .aboutUs {
+        padding-top: 111px;
+        padding-bottom: 118px;
+
+        .headline {
+            margin-bottom: 75px;
+            text-align: center;
+            h1 {
+                color:  $whiteColor;
+            }
+            .line {
+                background-color: #b73c6d;
+            }
+            p {
+                color:  $whiteColor;
+            }      
+        }
+
+        .comments {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            width: 80%;
+            .comments_item {
+                width: 540px;
+                display: inline-block;
+                padding-right: 40px;
+                .ava {
+                    border-radius: 50%;
+                    background-color:  #787878;
+                    width: 96px;
+                    height: 96px;
+                    float: left;
+                    
+                }
+                .quote {
+                    float: right;
+                    text-align: left;
+                    p {
+                        width: 340px;
+                        margin-bottom: 26px;
+                        color:  $whiteColor;
+                        font-size: 21px;
+                        line-height: 31px;    
+                        font-family: 'TitilliumWebItalic';               
+                    }
+
+                    h4 {
+                        font-family: 'TitilliumWebBold';
+                        color:  $whiteColor;
+                        font-size: 22px;
+                        font-weight: 700;
+                        line-height: 22px;
+                    }
+                    h5 {
+                        font-family: 'TitilliumWeb';
+                        color:  #ffdd99;
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 33px;
+                    }
+                }
+            }
+            .top {
+                margin-bottom: 130px;
+            }
+        }
+}
+}

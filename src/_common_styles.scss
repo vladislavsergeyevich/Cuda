@@ -1,0 +1,39 @@
+.wrapper {
+    .container {
+        padding-top: 118px;
+        .headline {
+            text-align: center;
+            h1 {
+                position: relative;
+                margin-bottom: 24px;
+                font-family: "TitilliumWebBold";
+                color:  #ffffff;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 29.907px;
+                font-stretch: -0.1;
+                text-align: center;
+                letter-spacing: 4.6px;
+            }
+            .line {
+                margin: 0 auto;
+                margin-bottom: 18px;
+                height: 4px;
+                width: 87px;
+            }
+           
+            p {
+                display: inline-block;
+                font-family: "TitilliumWeb";
+                color:  #ffffff;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 26px;
+                text-align: center;
+                letter-spacing: 0.3px;
+            }
+        }
+    
+    }
+
+}

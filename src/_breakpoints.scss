@@ -1,0 +1,644 @@
+@media only screen  and (max-width:479px) {
+    .wrapper {
+        .container {
+            .rood, .green, .blue {
+                width: 240px;
+                height: 60px;
+            }
+            .headline {
+                padding: 0 20px 0 20px;
+                h1{
+                    font-size: 24px;
+                    line-height: 35px;
+                }
+                p {
+                    width: 100%;
+                    font-size: 19px;
+                }
+          
+            }
+            
+        
+        }
+
+    }
+   
+    .header {
+        padding-left: 20px;
+        padding-right: 20px;
+
+            .logo {
+                margin-left: 0px;
+            }
+            .ham {
+                display: block;
+            }
+            .nav {
+                display: none;
+            }
+    }
+    .jumbotron_wrapper {
+        .jumbotron {
+            padding: 30px 20px 152px 20px;
+            h1 {
+                font-size: 24px;
+                line-height: 35px;
+            }
+        }
+    }
+    .services_wrapper {
+        .services {
+            .services_options {
+                width: 90%;
+                .services_oprions_item {
+                    width: 100%;
+                    margin-bottom: 100px;
+                    img {
+                        margin-bottom: 40px;
+                    }
+                    h2 {
+                        font-size: 22px;
+                    }
+                    p {
+                        font-size: 19px;
+                    }
+                }
+                .last {
+                    margin-bottom: 0px;
+                }
+            
+            }
+
+        }
+    }
+    .team_wrapper {
+        .team {
+            .team_members {
+                .team_members_item {
+                   width:  100%;
+                   margin-bottom: 100px;
+                   h2 {
+                    font-size: 22px;
+                   }
+                   h3 {
+                    font-size: 19px;
+                   }
+                   p {
+                    font-size: 19px;
+                   }
+                }
+                .top {
+                    margin-bottom: 100px;
+                }
+                .last {
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+    .skills_wrapper {
+        .skills {
+            .skills_progress {
+                
+  
+                .skill_progress_item {
+                    padding: 0;
+                    width: 100%;
+                    margin-bottom: 100px;
+                }
+                .last {
+                    margin-bottom: 0px;
+                }
+            }
+        }
+        
+    }
+    .portfolio_wrapper {
+        .portfolio {
+            .filters {
+                width: 87%;
+                li {
+                    width: 45%;
+                }
+                .top {
+                    margin-bottom: 10px;
+                }
+            }
+            .sites {
+                display: block;
+                margin: 0 auto 50px;
+                width: 80%;
+                .sites_item {
+                    margin-bottom: 63px;
+                    h3 {
+                        font-size: 19px;
+                    }
+                }
+                .last {
+                    margin-bottom: 0;
+                }
+               
+            }
+        }
+    }
+    .aboutUs_wrapper {
+        .aboutUs {
+            .comments {
+                width: 95%;
+                text-align: center;
+                .comments_item {
+                    width: 100%;
+                    padding-right: 0;
+                    margin-bottom: 80px;
+                    .ava {
+                        float: none;
+                        display: inline-block;
+                        margin-bottom: 20px;
+                    }
+                    .quote {
+                        float: none;
+                        text-align: center;
+                        p {
+                            display: inline-block;
+                            width: 80%;
+                            font-size: 19px;
+                        }
+                        h5 {
+                            font-size: 19px;
+                        }
+                    }
+                }
+                .last {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .getInTouch_wrapper {
+        .getInTouch {
+            padding: 70px 0 80px;
+
+            form {
+                width: 80%;
+                input {
+                    float: none;
+                    display: block;
+                    width: 100%;
+                }
+                textarea {
+                    float: none;
+                }
+            }
+        }
+    }
+    .footer_wrapper {
+        .footer {
+            padding: 25px 0;
+            ul {
+                display: block;
+                width: 100%;
+                margin: 0 auto;
+                text-align: center;
+                li {
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    a {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+@media only screen and (min-width:480px) and (max-width:767px) {
+    .wrapper {
+        .container {
+            .headline {
+                padding: 0 50px 0 50px;
+                h1{
+                    font-size: 35px;
+                    line-height: 1.3;
+                }
+                p {
+                    width: 100%;
+                    font-size: 19px;
+                }
+          
+            }
+        }
+
+    }
+
+
+    .header {
+        padding-left: 70px;
+        padding-right: 70px;
+
+            .logo {
+                margin-left: 0px;
+            }
+            .ham {
+                display: block;
+            }
+            .nav {
+                display: none;
+            }
+    }
+    .jumbotron_wrapper {
+        .jumbotron {
+            padding: 30px 70px 152px 70px;
+            h1 {
+                font-size: 29px;
+            }
+        }
+    }
+    .services_wrapper {
+        .services {
+            .services_options {
+                width: 80%;
+                .services_oprions_item {
+                    width: 100%;
+                    margin-bottom: 100px;
+                    p {
+                        font-size: 19px;
+                    }   
+                }
+            
+            }
+
+        }
+    }
+    .team_wrapper {
+        .team {
+            .team_members {
+                .team_members_item {
+                   width:  100%;
+                   margin-bottom: 100px;
+                   h2 {
+                    font-size: 22px;
+                   }
+                   h3 {
+                    font-size: 19px;
+                   }
+                   p {
+                    font-size: 19px;
+                   }
+                }
+                .top {
+                    margin-bottom: 100px;
+                }
+                .last {
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+    .skills_wrapper {
+        .skills {
+            .headline {
+                p {
+                    width: 100%;
+                }
+            }
+            .skills_progress {
+                padding-left: 5%;
+                padding-right: 5%;    
+                .skill_progress_item {
+                    width: 49%;
+                }
+                .top {
+                    margin-bottom: 100px;
+                }
+            }
+        }
+        
+    }
+    .portfolio_wrapper {
+        .portfolio {
+            .headline {
+                p {
+                    width: 100%;
+                }
+            }
+            .sites {
+                display: block;
+                margin: 0 auto 80px;
+                width: 80%;
+                .sites_item {
+                    margin-bottom: 63px;
+                    h3 {
+                        font-size: 19px;
+                    }
+                }
+                .last {
+                    margin-bottom: 0;
+                }
+            }
+        }
+     
+    }
+    .aboutUs_wrapper {
+        .aboutUs {
+            .comments {
+                width: 95%;
+                .comments_item {
+                    width: 400px;
+                    padding-right: 0;
+                    margin-bottom: 130px;
+                    .quote {
+                        p {
+                            width: 270px;
+                        }
+                    }
+                }
+                .last {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .getInTouch_wrapper {
+        .getInTouch {
+            .headline {
+                
+            }
+            form {
+                width: 75%;
+                input {
+                    float: none;
+                    display: block;
+                    width: 100%;
+                }
+                textarea {
+                    float: none;
+                }
+            }
+        }
+    }
+    .footer_wrapper {
+        .footer {
+            ul {
+                display: block;
+                width: 480px;
+                margin: 0 auto;
+                text-align: center;
+                li {
+                    margin-left: 15px;
+                    margin-right: 15px;
+                    a {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+@media only screen and (min-width:768px) and (max-width:1023px)  {
+    .wrapper {
+        .container {
+            .headline {
+                padding: 0 50px 0 50px;
+            }
+        }
+
+    }
+
+    .header {
+        padding-left: 70px;
+        padding-right: 70px;
+
+            .logo {
+                margin-left: 0px;
+            }
+            .ham {
+                display: none;
+            }
+            .nav {
+                display: block;
+                font-size: 18px;
+            }
+    }
+    .jumbotron_wrapper {
+        .jumbotron {
+            padding-left: 70px;
+            padding-right: 70px;
+            h1 {
+                font-size: 32px;
+            }
+        }
+    }
+    .services_wrapper {
+        .services {
+          
+            .services_options {
+                width: 80%;
+                .services_oprions_item {
+                    width: 50%;
+                }
+                .top {
+                    margin-bottom: 100px;
+                }
+            }
+
+        }
+    }
+    .team_wrapper {
+        .team {
+            .team_members {
+                .team_members_item {
+                    width: 49%;
+                }
+                .top {
+                    margin-bottom: 100px;
+                }
+            }
+        }
+    }
+    .skills_wrapper {
+        .skills {
+            .headline {
+                p {
+                    width: 70%;
+                }
+            }
+            .skills_progress {
+                padding-left: 10%;
+                padding-right: 10%;    
+                .skill_progress_item {
+                    width: 49%;
+                }
+                .top {
+                    margin-bottom: 100px;
+                }
+            }
+        }
+        
+    }
+    .portfolio_wrapper {
+        .portfolio {
+            .headline {
+                p {
+                    width: 70%;
+                }
+            }
+            .sites_item {
+                margin-bottom: 63px;
+                h3 {
+                    font-size: 19px;
+                }
+            }
+            .last {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .aboutUs_wrapper {
+        .aboutUs {
+            .comments {
+                .comments_item {
+                    padding-right: 0;
+                    margin-bottom: 130px;
+                }
+                .last {
+                    margin-bottom: 0;
+                }
+                
+            }
+        }
+    }
+    .getInTouch_wrapper {
+        .getInTouch {
+            form {
+                width: 75%;
+            }
+        }
+    }
+    .footer_wrapper {
+        .footer {
+            ul {
+                display: block;
+                width: 70%;
+                margin: 0 auto;
+                text-align: center;
+                li {
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    a {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+   
+
+}
+@media only screen and (min-width:1024px) and (max-width:1439px) {
+    .header {
+        padding-left: 160px;
+        padding-right: 160px;
+        .ham {
+            display: none;
+        }
+    } 
+    .jumbotron_wrapper {
+        .jumbotron {
+            h1 {
+                font-size: 38px;
+            }
+        }
+    }
+
+    .aboutUs_wrapper {
+        .aboutUs {
+            .comments {
+                width: 95%;
+                .comments_item {
+                    width: 470px;
+                    padding-right: 20px;
+                    .quote {
+                        p {
+                            width: 320px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+   
+
+  
+   
+}
+@media only screen and (min-width:1024px) and (max-width:1200px) {
+    .services_wrapper {
+        .services {
+            .services_options {
+                width: 70%;
+                .services_oprions_item {
+                    width: 50%;
+                }
+                .top {
+                    margin-bottom: 100px;
+                }
+            }
+
+        }
+    }
+    .team_wrapper {
+        .team {
+            .team_members {
+                .team_members_item {
+                    width: 49%;
+                }
+                .top {
+                    margin-bottom: 100px;
+                }
+            }
+        }
+    }
+    .portfolio_wrapper {
+        .portfolio {
+            .headline {
+                p {
+                    width: 50%;
+                }
+            }
+            .sites {
+                display: block;
+                margin: 0 auto 80px;
+                width: 80%;
+                .sites_item {
+                    width: 49%;
+                }
+            }
+        }
+     
+    }
+  
+   
+   
+}
+
+@media only screen and (min-width:1440px) {
+    .container {
+        width: 1440px;
+        margin: 0 auto 0;
+    }
+
+    .header {
+        padding-left: $paddingLeft;
+        padding-right: $paddingRight;
+        .ham {
+            display: none;
+        }
+    }    
+  
+ 
+}
+

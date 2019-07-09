@@ -1,0 +1,27 @@
+.footer_wrapper {
+    background-color: $footerColor;
+    .footer {
+        padding: 35px 0;
+        ul {
+            width: 990px;
+            margin: 0 auto;
+            li {
+                display: inline-block;
+                margin-left: 27px;
+                margin-right: 27px;
+                a {
+                    width: 100%;
+                    font-family: "TitilliumWebSemiBold", sans-serif;
+                    color:  $whiteColor;
+                    font-size: 24px;
+                    font-weight: 500;
+                }
+            }
+          
+            li:hover a {
+                color:  #30bae7;
+            }
+        } 
+}
+
+}

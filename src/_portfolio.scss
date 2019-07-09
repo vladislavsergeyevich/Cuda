@@ -1,0 +1,75 @@
+.portfolio_wrapper {
+    background-color: $portfolioColor;
+    .portfolio {
+        padding-top: 113px;
+        padding-bottom: 106px;
+
+        .headline {
+            margin-bottom: 41px;
+            h1 {
+                color: #393939; 
+            }
+            .line {
+                background-color: #e5c37f;
+            }
+            p {
+                width: 40%;
+                color: #393939;
+            }      
+
+        }
+
+        .filters {
+            display: block;
+            width: 378px;
+            margin: 0 auto;
+            margin-bottom: 65px;
+        
+            li {
+                margin: 0 4px 0 4px;
+                width: 86px;
+                height: 38px;
+                border-radius: 4px;
+                border: 0;
+                background-color:  rgba(0, 0, 0, 0.08);
+                display: inline-block;
+                font-family: 'TitilliumWeb';
+                color:  #393939;
+                font-size: 18px;
+                font-weight: 400;
+                text-align: center;
+                line-height: 39px;
+            
+            }
+            li:hover {
+                background-color: white;
+            }
+        }
+
+        .sites {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 80px;
+
+            .sites_item {
+                display: inline-block;
+                
+                img {
+                    width: 100%;
+                    margin-bottom: 25px;
+                }
+                h3 {
+                    font-family: 'TitilliumWeb';
+                    color:  #393939;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 19.5px;
+                    margin: 0 30px 0 30px;
+                }
+            }
+            .top {
+                margin-bottom: 63px;
+            }
+        }
+    }
+}
